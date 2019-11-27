@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/pip install -t /working $@
+/usr/bin/pip3 install -t /working $@
