@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Keith McDuffee <gudlyf@realistek.com>
+LABEL "maintainer"="Keith McDuffee <gudlyf@realistek.com>"
 
 RUN apt-get update && \
     apt-get -y install python3-pip
