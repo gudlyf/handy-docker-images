@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Keith McDuffee <gudlyf@realistek.com>
+LABEL "maintainer"="Keith McDuffee <gudlyf@realistek.com>"
 
 RUN yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm && \
     yum -y install google-authenticator
